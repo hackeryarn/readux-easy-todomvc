@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ADD_TODO	constants/ActionTypes.js	/^export const ADD_TODO = 'ADD_TODO'$/;"	C
+App	components/App.js	/^const App = () => ($/;"	C
+CLEAR_COMPLETED	constants/ActionTypes.js	/^export const CLEAR_COMPLETED = 'CLEAR_COMPLETED'$/;"	C
+COMPLETE_ALL_TODOS	constants/ActionTypes.js	/^export const COMPLETE_ALL_TODOS = 'COMPLETE_ALL_TODOS'$/;"	C
+COMPLETE_TODO	constants/ActionTypes.js	/^export const COMPLETE_TODO = 'COMPLETE_TODO'$/;"	C
+DELETE_TODO	constants/ActionTypes.js	/^export const DELETE_TODO = 'DELETE_TODO'$/;"	C
+EDIT_TODO	constants/ActionTypes.js	/^export const EDIT_TODO = 'EDIT_TODO'$/;"	C
+FILTER_TITLES	components/Footer.js	/^const FILTER_TITLES = {$/;"	C
+Footer	components/Footer.js	/^const Footer = (props) => {$/;"	C
+Header	components/Header.js	/^const Header = ({ addTodo }) => ($/;"	C
+Link	components/Link.js	/^const Link = ({ active, children, setFilter }) =>$/;"	C
+MainSection	components/MainSection.js	/^const MainSection = ({ todosCount, completedCount, actions }) =>$/;"	C
+SET_VISIBILITY_FILTER	constants/ActionTypes.js	/^export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'$/;"	C
+SHOW_ACTIVE	constants/TodoFilters.js	/^export const SHOW_ACTIVE = 'show_active'$/;"	C
+SHOW_ALL	constants/TodoFilters.js	/^export const SHOW_ALL = 'show_all'$/;"	C
+SHOW_COMPLETED	constants/TodoFilters.js	/^export const SHOW_COMPLETED = 'show_completed'$/;"	C
+TodoItem	components/TodoItem.js	/^export default class TodoItem extends Component {$/;"	c
+TodoList	components/TodoList.js	/^const TodoList = ({ filteredTodos, actions }) => ($/;"	C
+TodoTextInput	components/TodoTextInput.js	/^export default class TodoTextInput extends Component {$/;"	c
+VisibleTodoList	containers/VisibleTodoList.js	/^const VisibleTodoList = connect($/;"	C
+actions	components/MainSection.js	/^  actions: PropTypes.object.isRequired$/;"	p	class:MainSection.propTypes
+actions	components/TodoList.js	/^  actions: PropTypes.object.isRequired$/;"	p	class:TodoList.propTypes
+actions	components/TodoList.spec.js	/^    actions: {$/;"	c	class:props
+active	components/Link.js	/^  active: PropTypes.bool.isRequired,$/;"	p	class:Link.propTypes
+activeCount	components/Footer.js	/^  activeCount: PropTypes.number.isRequired,$/;"	p	class:Footer.propTypes
+addTodo	actions/index.js	/^export const addTodo = text => ({ type: types.ADD_TODO, text })$/;"	C
+addTodo	components/Header.js	/^  addTodo: PropTypes.func.isRequired$/;"	p	class:Header.propTypes
+addTodo	components/Header.spec.js	/^    addTodo: jest.fn()$/;"	p	class:props
+checkFilter	components/Footer.spec.js	/^      filters.props.children.forEach(function checkFilter(filter, i) {$/;"	f
+children	components/Footer.spec.js	/^  const children = Array.isArray(elem.props.children) ?$/;"	C
+children	components/Link.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:Link.propTypes
+clearCompleted	actions/index.js	/^export const clearCompleted = () => ({ type: types.CLEAR_COMPLETED })$/;"	C
+clearCompleted	components/TodoList.spec.js	/^      clearCompleted: jest.fn()$/;"	p	class:props.actions
+completeAll	components/TodoList.spec.js	/^      completeAll: jest.fn(),$/;"	p	class:props.actions
+completeAllTodos	actions/index.js	/^export const completeAllTodos = () => ({ type: types.COMPLETE_ALL_TODOS })$/;"	C
+completeTodo	actions/index.js	/^export const completeTodo = id => ({ type: types.COMPLETE_TODO, id })$/;"	C
+completeTodo	components/TodoItem.spec.js	/^    completeTodo: jest.fn()$/;"	p	class:props
+completeTodo	components/TodoList.spec.js	/^      completeTodo: jest.fn(),$/;"	p	class:props.actions
+completed	components/TodoItem.spec.js	/^      completed: false$/;"	p	class:props.todo
+completedCount	components/Footer.js	/^  completedCount: PropTypes.number.isRequired,$/;"	p	class:Footer.propTypes
+completedCount	components/MainSection.js	/^  completedCount: PropTypes.number.isRequired,$/;"	p	class:MainSection.propTypes
+deleteTodo	actions/index.js	/^export const deleteTodo = id => ({ type: types.DELETE_TODO, id })$/;"	C
+deleteTodo	components/TodoItem.spec.js	/^    deleteTodo: jest.fn(),$/;"	p	class:props
+deleteTodo	components/TodoList.spec.js	/^      deleteTodo: jest.fn(),$/;"	p	class:props.actions
+editTodo	actions/index.js	/^export const editTodo = (id, text) => ({ type: types.EDIT_TODO, id, text })$/;"	C
+editTodo	components/TodoItem.spec.js	/^    editTodo: jest.fn(),$/;"	p	class:props
+editTodo	components/TodoList.spec.js	/^      editTodo: jest.fn(),$/;"	p	class:props.actions
+editing	components/TodoItem.js	/^    editing: false$/;"	p	class:state
+element	components/TodoItem.js	/^    let element$/;"	v
+filteredTodos	components/TodoList.js	/^  filteredTodos: PropTypes.arrayOf(PropTypes.shape({$/;"	p	class:TodoList.propTypes
+filteredTodos	components/TodoList.spec.js	/^    filteredTodos: [$/;"	p	class:props
+getCompletedTodoCount	selectors/index.js	/^export const getCompletedTodoCount = createSelector($/;"	C
+getTextContent	components/Footer.spec.js	/^const getTextContent = elem => {$/;"	C
+getTodos	selectors/index.js	/^const getTodos = state => state.todos$/;"	C
+getVisibilityFilter	selectors/index.js	/^const getVisibilityFilter = state => state.visibilityFilter$/;"	C
+getVisibleTodos	selectors/index.js	/^export const getVisibleTodos = createSelector($/;"	C
+id	components/TodoItem.spec.js	/^      id: 0,$/;"	p	class:props.todo
+initialState	reducers/todos.js	/^const initialState = [$/;"	C
+itemWord	components/Footer.js	/^  const itemWord = activeCount === 1 ? 'item' : 'items'$/;"	C
+label	components/TodoItem.spec.js	/^    const label = output.props.children.props.children[1]$/;"	C
+mapDispatchToProps	containers/FilterLink.js	/^const mapDispatchToProps = (dispatch, ownProps) => ({$/;"	C
+mapDispatchToProps	containers/MainSection.js	/^const mapDispatchToProps = dispatch => ({$/;"	C
+mapDispatchToProps	containers/VisibleTodoList.js	/^const mapDispatchToProps = dispatch => ({$/;"	C
+mapStateToProps	containers/FilterLink.js	/^const mapStateToProps = (state, ownProps) => ({$/;"	C
+mapStateToProps	containers/MainSection.js	/^const mapStateToProps = state => ({$/;"	C
+mapStateToProps	containers/VisibleTodoList.js	/^const mapStateToProps = state => ({$/;"	C
+onClearCompleted	components/Footer.js	/^  onClearCompleted: PropTypes.func.isRequired,$/;"	p	class:Footer.propTypes
+propTypes	components/Footer.js	/^Footer.propTypes = {$/;"	c	class:Footer
+propTypes	components/Header.js	/^Header.propTypes = {$/;"	c	class:Header
+propTypes	components/Link.js	/^Link.propTypes = {$/;"	c	class:Link
+propTypes	components/MainSection.js	/^MainSection.propTypes = {$/;"	c	class:MainSection
+propTypes	components/TodoList.js	/^TodoList.propTypes = {$/;"	c	class:TodoList
+props	components/Header.spec.js	/^  const props = {$/;"	c
+props	components/TodoItem.spec.js	/^  const props = {$/;"	c
+props	components/TodoList.spec.js	/^  const props = {$/;"	c
+renderer	components/App.spec.js	/^  const renderer = createRenderer()$/;"	C
+renderer	components/Footer.spec.js	/^  const renderer = createRenderer()$/;"	C
+renderer	components/Header.spec.js	/^  const renderer = createRenderer();$/;"	C
+renderer	components/Link.spec.js	/^  const renderer = createRenderer();$/;"	C
+renderer	components/MainSection.spec.js	/^  const renderer = createRenderer()$/;"	C
+renderer	components/TodoItem.spec.js	/^  const renderer = createRenderer()$/;"	C
+renderer	components/TodoList.spec.js	/^  const renderer = createRenderer();$/;"	C
+renderer	components/TodoTextInput.spec.js	/^  const renderer = createRenderer()$/;"	C
+rootReducer	reducers/index.js	/^const rootReducer = combineReducers({$/;"	C
+setFilter	components/Link.js	/^  setFilter: PropTypes.func.isRequired$/;"	p	class:Link.propTypes
+setVisibilityFilter	actions/index.js	/^export const setVisibilityFilter = filter => ({ type: types.SET_VISIBILITY_FILTER, filter})$/;"	C
+setup	components/App.spec.js	/^const setup = propOverrides => {$/;"	C
+setup	components/Footer.spec.js	/^const setup = propOverrides => {$/;"	C
+setup	components/Header.spec.js	/^const setup = () => {$/;"	C
+setup	components/Link.spec.js	/^const setup = (propOverrides) => {$/;"	C
+setup	components/MainSection.spec.js	/^const setup = propOverrides => {$/;"	C
+setup	components/TodoItem.spec.js	/^const setup = ( editing = false ) => {$/;"	C
+setup	components/TodoList.spec.js	/^const setup = () => {$/;"	C
+setup	components/TodoTextInput.spec.js	/^const setup = propOverrides => {$/;"	C
+state	components/TodoItem.js	/^  state = {$/;"	c
+state	components/TodoTextInput.js	/^  state = {$/;"	c
+store	index.js	/^const store = createStore(reducer)$/;"	C
+text	components/TodoItem.spec.js	/^      text: 'Use Redux',$/;"	p	class:props.todo
+text	components/TodoTextInput.js	/^    const text = e.target.value.trim()$/;"	C
+text	components/TodoTextInput.js	/^    text: this.props.text || ''$/;"	p	class:state
+todo	components/TodoItem.spec.js	/^    todo: {$/;"	c	class:props
+todos	reducers/todos.js	/^export default function todos(state = initialState, action) {$/;"	f
+todosCount	components/MainSection.js	/^  todosCount: PropTypes.number.isRequired,$/;"	p	class:MainSection.propTypes
+visibilityFilter	reducers/visibilityFilter.js	/^const visibilityFilter = (state = SHOW_ALL, action) => {$/;"	C
