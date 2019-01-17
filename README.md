@@ -1,4 +1,4 @@
-# Redux-easy TodoMVC Example
+# Redux-Easy TodoMVC Example
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
 
@@ -6,6 +6,18 @@ Projects built with Create-React-App include support for ES6 syntax, as well as 
 
 This project also uses [redux-easy](https://github.com/mvolkmann/redux-easy) to
 enable easier intergration with redux.
+
+## Comparison to Redux TodoMVC
+
+The code became simpler by completely removing actions and greately reducing
+the number of reducers needed.
+
+Lines of code went from 503 to 451, roughly a 10% reduction.
+
+Files went down from 20 to 14, roughly a 30% reduction.
+
+The line count number isn't huge becaue most of the code resides in JSX.
+However, the file reduction relieve a major congnitive load.
 
 ## Available Scripts
 
