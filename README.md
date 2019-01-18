@@ -12,7 +12,7 @@ enable easier intergration with redux.
 The code became simpler by completely removing actions and greately reducing
 the number of reducers needed.
 
-Lines of code went from 503 to 451, roughly a 10% reduction.
+Lines of code went from 503 to 447, roughly a 10% reduction.
 
 Files went down from 20 to 14, roughly a 30% reduction.
 
