@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { dispatchSet, watch, getState } from 'redux-easy';
+import { dispatchSet, watch } from 'redux-easy';
 import classnames from 'classnames'
 
 class Link extends Component {
@@ -8,7 +8,7 @@ class Link extends Component {
   }
 
   isActive() {
-    return getState().visibilityFilter === this.props.filter 
+    return this.props.visibilityFilter === this.props.filter 
   }
   
   render() {

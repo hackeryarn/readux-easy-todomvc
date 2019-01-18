@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { dispatch, watch } from 'redux-easy';
+import { dispatch } from 'redux-easy';
 
 import TodoTextInput from '../components/TodoTextInput'
 
-class Header extends Component {
+export default class Header extends Component {
   addTodo = (text) => {
     dispatch('addTodo', text)
   }
@@ -25,5 +25,3 @@ class Header extends Component {
     )
   }
 }
-
-export default watch(Header, {})
